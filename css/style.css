@@ -1,16 +1,13 @@
 
 
-a. hover {color: pink;}
-nav.home ul {list-styles-type; none:
-min-height:100px
-backgroung-color:antiquewhite:
-min-width 500px}
+.topnav { list-styles-type; none:
+	background-color:#ffd000;
+min-height:25px;
+min-width: 100px;
+padding: 20px 15px 20px 0px;}
 
 .header {display:grid;
-	grid-template-columns:40% 60%;
-	 font-family:font-size:"Vibes", cursive; 100px;
-:; color: transparent;-webkit-text-stroke-width: 
-2px;-webkit-text-stroke-color:black; }
+	grid-template-columns:40% 60%; }
 
 #titlevid {position:;
 right: 50px;
@@ -22,23 +19,44 @@ body {margin:0;
 padding:0;
 font-family: ariel}
 li a {display: block;
-float: center;}
-.topnav {background-color: #333
+float: center;
+padding: 0px 15px 0px 15px}
+.topnav {background-color:#ffd000 ;
 overflow: hidden;}
 .topnav a { float: center;
-background-color: #ffbe0d;
-color: #242322;
+background-color:#ffd000;
+color: ;
 text-align: center;
-padding: 14px 16px
+padding: 20px 16px
 font-size:17px;
 list-style: none;
-padding: 20px 0px 20px 0px;
-list-style: none;
  }
-.topnav a hover {background-color: #ACAF50;
+.topnav a {background-color:;
 color: white;}
-.topnave li {display: inline-block;
-padding-right: 50px;
+li {display: inline-block;
+padding-right: 20px;
 float: center;}
-.topnva li a {text-decoration: none;
+li a {text-decoration: none;
 color: white}
+li {font-family: "Exo", sans-serif;
+color: #fff;
+font-size: 16px}
+.first {font-family: "rubic", sans-serif;
+background-color: #ffd000;
+padding: 20px 0px 20px 0px }
+.sub {font-family: "rubic", sans-serif;
+font-size: 30px;
+background-color: #ffd000}
+.gp {}
+.subnav1 li {font-family: "exo", sans-serif;
+color:#fff;
+background-color: #4ae3f7;}
+.subnav1 {background-color:#4ae3f7 ;
+overflow: hidden;}
+.subnav1 a {float: center;
+background-color:#4ae3f7 ;
+color: ;
+text-align: center;
+padding: 20px 16px;
+font-size: 17px;
+list-style: none;}
