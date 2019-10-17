@@ -15,14 +15,23 @@ bottom:50px;
 min-width: 100%;
 min-height: 100%;
 }
+
+
 body {margin:0;
-padding:0;
+padding:20px 0 20px 0;
 font-family: ariel}
+
+
 li a {display: block;
 float: center;
 padding: 0px 15px 0px 15px}
+
+
+
 .topnav {background-color:#ffd000 ;
 overflow: hidden;}
+
+
 .topnav a { float: center;
 background-color:#ffd000;
 color: ;
@@ -31,32 +40,117 @@ padding: 20px 16px
 font-size:17px;
 list-style: none;
  }
+
+
 .topnav a {background-color:;
 color: white;}
+
+
 li {display: inline-block;
 padding-right: 20px;
 float: center;}
+
+
+
 li a {text-decoration: none;
 color: white}
+
+
 li {font-family: "Exo", sans-serif;
 color: #fff;
 font-size: 16px}
+
+
 .first {font-family: "rubic", sans-serif;
-background-color: #ffd000;
+background-color: #fff;
 padding: 20px 0px 20px 0px }
+
+
+.sec {background-color: #D1DBDA;
+{font-family: "rubic", sans-serif;
+padding: 20px 0px 20px 0px}
+
+
 .sub {font-family: "rubic", sans-serif;
-font-size: 30px;
-background-color: #ffd000}
+font-size: 60px;
+border: 3px }
+
+
 .gp {}
+
+
 .subnav1 li {font-family: "exo", sans-serif;
 color:#fff;
-background-color: #4ae3f7;}
-.subnav1 {background-color:#4ae3f7 ;
+background-color:;}
+
+
+.subnav1 {background-color: #3F7EB0 ;
 overflow: hidden;}
+
+
 .subnav1 a {float: center;
-background-color:#4ae3f7 ;
+background-color:#3F7EB0 ;
 color: ;
 text-align: center;
 padding: 20px 16px;
 font-size: 17px;
-list-style: none;}
+list-style: none;
+}
+
+.topnav2 {background-color: ;
+overflow: hidden;}
+
+
+.topnav2 a { float: center;
+background-color:;
+color: ;
+text-align: center;
+padding: 20px 16px
+font-size:17px;
+list-style: none;
+ }
+
+
+.topnav2 a {background-color:;
+color: green;}
+
+
+li {display: inline-block;
+padding-right: 20px;
+float: center;}
+
+
+
+li a {text-decoration: none;
+color: white}
+
+
+li {font-family: "Exo", sans-serif;
+color: #fff;
+font-size: 16px}
+
+
+.subnav1 li {font-family: "exo", sans-serif;
+color:#fff;
+background-color:#D1DBDA;}
+
+
+.subnav1 {background-color: #D1DBDA ;
+overflow: hidden;}
+
+
+.subnav1 a {float: center;
+background-color:#D1DBDA ;
+color: #fff ;
+text-align: center;
+padding: 20px 16px;
+font-size: 17px;
+list-style: none;
+}
+.parent {
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 1fr 2fr;
+grid-column-gap: 15px;
+grid-row-gap: px;
+}
