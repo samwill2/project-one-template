@@ -1,4 +1,4 @@
-p { border: 20px;
+.intro { border: 20px;
   background-color: #ffd000;
   text-align: left;
   padding: 30px;
@@ -112,7 +112,7 @@ html, body {
   }
   body {background-size: 1240px;
     text-align: center;
-    background-image: url(https://images.unsplash.com/photo-1567286415638-1609ff9091fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+    background-image: url(https://images.unsplash.com/photo-1528967310676-14f901f25d02?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
    background-repeat: no-repeat;
    background-size: cover;
     }
@@ -161,6 +161,16 @@ h1 {
   box-sizing: border-box;
   position: relative;
   }
+  .hum html, body {
+    height
+  }
+  .hum {background-size: 1240px;
+    text-align: center;
+    background-image: url(https://images.unsplash.com/photo-1476681227192-05dedd2b6709?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60); ;
+   background-repeat: no-repeat;
+   background-size: cover;
+    }
+
      body .hum :before {
     content: '';
     display: inline-block;
@@ -168,12 +178,7 @@ h1 {
     font-size: 0;
     height: 50%;
     }
-  .hum {background-size: 1240px;
-    text-align: center;
-    background-image: url(https://images.unsplash.com/photo-1476681227192-05dedd2b6709?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60); ;
-   background-repeat: no-repeat;
-   background-size: cover;
-    }
+  
   .hummas {
   display: inline-block;
   color: hsla(189, 50%, 48% );
@@ -184,7 +189,7 @@ h1 {
 
     h1 .hummas :after {
     content: attr(data-shadow);
-    position: absolute;
+    position: ;
     top: .06em; left: .06em;
     z-index: -1;
     text-shadow: none;
@@ -305,3 +310,75 @@ h1 .good {
   0% {background-position: 0 0}
   0% {background-position: 100% -100%}
   }
+
+
+
+
+  .parent {
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 7fr 3fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.div1 { grid-area: 1 / 1 / 3 / 2; }
+
+
+
+
+ @import url(https://fonts.googleapis.com/css?family=Righteous);
+
+.center1 *, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  }
+  
+
+
+ html, body .center1 {
+  height: ;
+  }
+  body .center1 {background-size: 1240px;
+    text-align: center;
+    background-image: url(https://images.unsplash.com/photo-1532925463008-706a2f643291?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+   background-repeat: no-repeat;
+   background-size: cover;
+    }
+  body .center1 :before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0;
+    height: 50%;
+    }
+  
+h1 .center1 {
+  display: inline-block;
+  color: #FF7C00;
+  font-family: 'Righteous', serif;
+  font-size: 12em; 
+  text-shadow: .03em .03em 0 #F1431C;
+  }
+   h1 .center1 :after {
+    content: attr(data-shadow);
+    position: absolute;
+    top: .06em; left: .06em;
+    z-index: -1;
+    text-shadow: none;
+    background-image:
+      linear-gradient(
+        45deg,
+        transparent 45%,
+        hsla(90,20%,90%,1) 45%,
+        hsla(90,20%,90%,1) 55%,
+        transparent 0
+        );
+    background-size: .05em .05em;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+    animation: shad-anim 25s linear infinite;
+    }
