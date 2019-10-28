@@ -24,8 +24,8 @@
 
  h4 
   {font-family:'Source Sans Pro', sans-serif;
-  font-size:30px
-   font-weight:700;
+  font-size:24px;
+   font-weight:500;
     text-transform:;
      color:#FFF;
       padding:10px; 
@@ -127,7 +127,7 @@ text-align: center;
   overflow: hidden;
    position: relative;
     width: 100%;
-     background-image: url(https://images.unsplash.com/photo-1540609638435-eb6d19eabd02?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+     background-image: url(https://images.unsplash.com/photo-1560303629-b9a73e17471d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
       background-attachment: fixed;
        background-size: cover;
         -moz-background-size: cover;
