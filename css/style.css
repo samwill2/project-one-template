@@ -211,6 +211,8 @@ p .intro
 {
   padding: 30px 30px;
   font-family: "Source Sans Pro", sans-serif:
+  font-size:18px;
+  font-weight: 500
   ;
 }
 
@@ -220,13 +222,13 @@ grid-template-columns: 2fr 2fr;
 grid-template-rows: repeat(3, 2fr);
 grid-column-gap: 0px;
 grid-row-gap: 0px;
-padding: 70px;}
+padding: 20px 70px;}
 
-img .red {
+img  {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 100%;
 }
 p #in {
   font-family: "Source Sans Pro", sans-serif;
